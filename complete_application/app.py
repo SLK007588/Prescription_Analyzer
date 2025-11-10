@@ -11,7 +11,7 @@ import io
 import openai
 import os
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
 
 client = openai.OpenAI(
     api_key=OPENROUTER_API_KEY,
